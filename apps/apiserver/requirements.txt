@@ -1,0 +1,14 @@
+bson
+flask
+flask_jwt
+flask_migrate
+flask_restful
+flask_script
+marshmallow
+pymongo
+pymysql
+pytest
+requests
+shapely
+sqlalchemy
+werkzeug

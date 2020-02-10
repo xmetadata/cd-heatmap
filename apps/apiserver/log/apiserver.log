@@ -1,0 +1,27 @@
+2019-11-22 22:42:23,300 ERROR users.py 33 password
+2019-11-23 21:50:02,169 ERROR dataset.py 41 {'list': ['Unknown field.']}
+2019-11-23 21:54:46,714 ERROR dataset.py 41 {'list': ['Unknown field.']}
+2019-11-25 21:59:44,937 ERROR blockset.py 90 {'area': ['Not a valid string.']}
+2019-11-26 21:27:18,099 ERROR dataset.py 89 {'labelset': ['Field may not be null.'], 'task_id': ['Field may not be null.']}
+2019-11-27 21:36:57,425 ERROR blockset.py 104 (pymysql.err.DataError) (1406, "Data too long for column 'centerpoint' at row 1")
+[SQL: UPDATE blockset SET centerpoint=%(centerpoint)s, createtime=%(createtime)s, updatetime=%(updatetime)s WHERE blockset.uuid = %(blockset_uuid)s]
+[parameters: {'centerpoint': '{"lng": 108.954264, "lat": 34.269757}', 'createtime': '2019-11-27 21:28:00', 'updatetime': datetime.datetime(2019, 11, 27, 21, 36, 57, 356406), 'blockset_uuid': 'baea8054111911ea870840f02f07501a'}]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+2019-11-27 21:37:38,675 ERROR blockset.py 105 (pymysql.err.DataError) (1406, "Data too long for column 'centerpoint' at row 1")
+[SQL: UPDATE blockset SET centerpoint=%(centerpoint)s, createtime=%(createtime)s, updatetime=%(updatetime)s WHERE blockset.uuid = %(blockset_uuid)s]
+[parameters: {'centerpoint': '{"lng": 108.954264, "lat": 34.269757}', 'createtime': '2019-11-27 21:28:00', 'updatetime': datetime.datetime(2019, 11, 27, 21, 37, 38, 594765), 'blockset_uuid': 'baea8054111911ea870840f02f07501a'}]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+2019-11-27 21:40:49,419 ERROR blockset.py 102 {'center': ['Field may not be null.']}
+2019-11-27 22:43:32,180 ERROR dataset.py 131 {'_schema': ['Invalid input type.']}
+2019-11-27 22:48:40,469 ERROR dataset.py 132 {'_schema': ['Invalid input type.']}
+2019-11-28 22:53:28,289 ERROR dataset.py 133 {'_schema': ['Invalid input type.']}
+2019-11-28 22:57:01,757 ERROR dataset.py 133 {'_schema': ['Invalid input type.']}
+2019-11-29 18:40:36,341 ERROR blockset.py 104 {'coordinates': ['Field may not be null.'], 'centroid': ['Field may not be null.']}
+2019-11-29 18:42:33,839 ERROR blockset.py 105 {'coordinates': ['Field may not be null.'], 'centroid': ['Field may not be null.']}
+2019-12-01 16:19:33,832 ERROR blockset.py 104 {'centroid': ['Field may not be null.'], 'coordinates': ['Field may not be null.']}
+2019-12-01 16:22:52,241 ERROR blockset.py 104 {'coordinates': ['Field may not be null.'], 'centroid': ['Field may not be null.'], 'createtime': ['Unknown field.'], 'updatetime': ['Unknown field.'], 'uuid': ['Unknown field.']}
+2019-12-01 16:23:37,271 ERROR blockset.py 104 {'coordinates': ['Field may not be null.'], 'centroid': ['Field may not be null.']}
+2019-12-01 21:02:19,706 ERROR dataset.py 105 {'extra': ['Field may not be null.'], 'navigate': ['Field may not be null.']}
+2019-12-02 21:21:11,126 ERROR dataset.py 59 {'header': ['Not a valid string.']}
+2019-12-02 21:22:00,355 ERROR dataset.py 60 {'header': ['Not a valid string.']}
+2019-12-02 21:42:08,566 ERROR dataset.py 141 {'navigate': ['Not a valid string.']}
